@@ -231,6 +231,15 @@ require('lazy').setup({
 
   -- Added for Coursera - Programming Languages Part A
   'jez/vim-better-sml',
+  {
+    'dense-analysis/ale',
+    config = function()
+      local g = vim.g
+
+      g.ale_sign_error = '✘'
+      g.ale_sign_warning = '▲'
+    end,
+  },
 
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
