@@ -4,15 +4,15 @@
 -- See the kickstart.nvim README for more information
 return {
 
-  -- Added for Coursera - Programming Languages Part A
-  'jez/vim-better-sml',
-  {
-    'dense-analysis/ale',
-    config = function()
-      local g = vim.g
-
-      g.ale_sign_error = '✘'
-      g.ale_sign_warning = '▲'
-    end,
-  },
+  -- -- Added for Coursera - Programming Languages Part A
+  -- 'jez/vim-better-sml',
+  -- {
+  --   'dense-analysis/ale',
+  --   config = function()
+  --     local g = vim.g
+  --
+  --     g.ale_sign_error = '✘'
+  --     g.ale_sign_warning = '▲'
+  --   end,
+  -- },
 }
